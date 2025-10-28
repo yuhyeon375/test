@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.black {
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 17%;
+}
+
+.lightgray {
+	background-color: #666666;
+	position: absolute;
+	top: 0;
+	left: 17%;
+	height: 12%;
+	width: 59%;
+}
+
+.blackgray {
+	background-color: #363535;
+	position: absolute;
+	top: 12%;
+	left: 17%;
+	height: 32%;
+	width: 42%;
+}
+
+.whitegray {
+	background-color: #8A8888;
+	position: absolute;
+	top: 12%;
+	left: 59%;
+	height: 32%;
+	width: 11%;
+}
+
+.darkgray {
+	background-color: #4A4A4A;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 44%;
+	width: 30%;
+}
+
+.middlegray {
+	background-color: #737373;
+	position: absolute;
+	bottom: 0;
+	left: 17%;
+	height: 56%;
+	width: 83%;
+}
+
+@media screen and (max-width: 900px) {
+	body {
+		.black {
+			background-color: #FFB300;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 40%;
+			width: 60%;
+		}
+
+		.lightgray {
+			background-color: #FF7B00;
+			position: absolute;
+			top: 0;
+			left: 60%;
+			height: 15%;
+			width: 40%;
+		}
+
+		.blackgray {
+			background-color: #FF4800;
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			height: 60%;
+			width: 10%;
+		}
+
+		.whitegray {
+			background-color: #FFB300;
+			position: absolute;
+			top: 70%;
+			left: 60%;
+			height: 30%;
+			width: 40%;
+		}
+
+		.darkgray {
+			background-color: #FFD400;
+			position: absolute;
+			left: 60%;
+			top: 15%;
+			height: 55%;
+			width: 40%;
+		}
+
+		.middlegray {
+			background-color: #FF6F00;
+			position: absolute;
+			left: 0;
+			top: 40%;
+			height: 60%;
+			width: 50%;
+		}
+}
